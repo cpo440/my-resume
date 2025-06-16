@@ -1,3 +1,6 @@
+body {
+  background-color: pink;
+}
 /* Custom adjustments to personalize */
 :root {
   --primary-color: #1f2f46; /* Navy Blue */
@@ -42,7 +45,4 @@ a:hover {
 
 section {
   padding: 4rem 0;
-}
-body {
-  background-color: pink;
 }

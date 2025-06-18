@@ -1,46 +1,87 @@
-
-/* Custom adjustments to personalize */
-:root {
-  --primary-color: #1f2f46; /* Navy Blue */
-  --secondary-color: #556b2f; /* Olive Green */
-  --accent-color: #d4af37; /* Gold */
-  --background-color: #f5f5dc; /* Light Tan */
-  --text-color: #2e2e2e; /* Charcoal */
-  --highlight-color: #00b894; /* Circuit Green */
-}
+/* Professional Resume CSS */
 
 body {
-  background-color: var(--background-color);
-  color: var(--text-color);
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f7f9fb;
+  color: #222e3a;
+  margin: 0;
+  padding: 0;
 }
 
+header {
+  background-color: #22314a;
+  color: #fff;
+  padding: 32px 0 24px 0;
+  text-align: center;
+}
+
+h1,
 h2,
-h3,
-h4 {
-  color: var(--primary-color);
+h3 {
+  margin: 0 0 12px 0;
+  font-weight: 600;
 }
 
-a {
-  color: var(--highlight-color);
+h1 {
+  font-size: 2.2rem;
+  letter-spacing: 1px;
 }
 
-a:hover {
-  color: var(--accent-color);
+h2 {
+  font-size: 1.3rem;
+  color: #22314a;
+  border-bottom: 2px solid #e0e6ed;
+  padding-bottom: 4px;
+  margin-top: 32px;
 }
 
-.btn-primary {
-  background-color: var(--primary-color);
-  border-color: var(--primary-color);
-  color: white;
-}
-
-.btn-primary:hover {
-  background-color: var(--secondary-color);
-  border-color: var(--secondary-color);
-  color: white;
+h3 {
+  font-size: 1.1rem;
+  color: #2d3e5e;
 }
 
 section {
-  padding: 4rem 0;
+  max-width: 800px;
+  margin: 0 auto 32px auto;
+  padding: 0 24px;
+}
+
+p,
+li {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.resume-title {
+  font-size: 1.1rem;
+  color: #4b5d75;
+  margin-bottom: 4px;
+}
+
+.resume-date {
+  float: right;
+  color: #7a869a;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 600px) {
+  section {
+    padding: 0 8px;
+  }
+  header {
+    padding: 20px 0 16px 0;
+  }
 }
